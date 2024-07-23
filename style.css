@@ -66,7 +66,7 @@ body {
     word-wrap: break-word;
 }
 
-body:before {
+body:before{
     content: '';
     display: block;
     background-attachment: scroll;
@@ -79,11 +79,9 @@ body:before {
     width: 100vw;
     z-index: 0;
     background-size: 512px, cover;
-    background-position: center, center;
-    background-repeat: repeat, repeat;
+    background-position: center, repeat;
     background-color: #000000;
 }
-
 body:after {
     background-color: #788281;
     content: '';
@@ -328,7 +326,6 @@ body.is-instant:after {
     display: none !important;
     transition: none !important;
 }
-
 .image {
     display: block;
     line-height: 0;
@@ -379,7 +376,7 @@ body.is-instant:after {
     max-width: 100%;
     width: 177px;
     border-radius: 100%;
-    border-color: #5E5757;
+    border-color: hsl(0, 4%, 35%);
     border-style: solid;
     border-width: 4px;
     transition: none;
